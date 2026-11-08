@@ -8,16 +8,16 @@
 
 <a href="https://jflib.org"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/button.png" width="560" alt="Visit jflib.org"></a>
 
-[Features](https://jflib.org/features.html) · [Apps](https://jflib.org/apps.html) · [Developer guide](https://jflib.org/docs/GUIDE.html) · [API reference](https://jflib.org/docs/API.html) · [Roadmap](https://jflib.org/roadmap.html) · [Source code](https://github.com/JFLibrary/JFLib)
+[Features](https://jflib.org/features.html) · [Apps](https://jflib.org/apps.html) · [Developer guide](https://jflib.org/docs/GUIDE.html) · [API reference](https://jflib.org/docs/API.html) · [crates.io](https://crates.io/crates/jflib) · [Roadmap](https://jflib.org/roadmap.html) · [Source code](https://github.com/JFLibrary/JFLib)
 
 </div>
 
 <a href="https://jflib.org"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/hero.png" width="100%" alt="Real JFLib apps side by side: JFNetworker, BackupCraft, jfWord, PaintCraft, and the Pocket Gallery on a phone"></a>
 
 JFLib brings widgets, layout, text, graphics, image formats, sound, networking, and packaging
-together in one library, with no GUI framework underneath. The Rust code uses `#![no_std]`,
-`core`, and `alloc`, and a Python build script invokes `rustc` directly. The same widgets and the
-same renderer run on Windows, Linux, Android, and in the browser. The
+together in one library, with no GUI framework underneath. The library uses `#![no_std]`, `core`,
+and `alloc`, your app may use `std`, and Cargo builds both. The same widgets and the same renderer
+run on Windows, Linux, Android, and in the browser. The
 [website](https://jflib.org) starts the Feature Gallery right in your browser, with nothing to
 install.
 
@@ -30,6 +30,23 @@ check the result by itself.
 **50** crates · **7** styles · **9** languages · **600+** test scripts · MIT or Apache 2.0
 
 </div>
+
+## Get started
+
+You need Rust through rustup.
+
+```sh
+cargo install cargo-jflib
+cargo jflib new hello
+cd hello
+cargo run
+```
+
+The new app is a normal Cargo project with one dependency, [`jflib`](https://crates.io/crates/jflib),
+and comes with its permissions, package data, and a smoke test. `cargo jflib test` runs the test,
+`cargo jflib watch` reloads the app while you edit, and `cargo jflib package` builds its installers.
+The [developer guide](https://jflib.org/docs/GUIDE.html) takes it from there, the API reference is
+on [docs.rs](https://docs.rs/jflib).
 
 ## What's inside
 
@@ -118,20 +135,6 @@ A graphical build app for applications, styles, profiles, tests, and release pac
 </td>
 </tr>
 </table>
-
-## Get started
-
-You need Python 3, Rust through rustup with the target you build for, and LLVM's linker.
-
-```sh
-git clone https://github.com/JFLibrary/JFLib
-cd JFLib
-python build_rs.py new hello --title "Hello"
-python build_rs.py run hello --target win    # on Linux: --target linux
-```
-
-The new app comes with its sources, permissions, package data, a smoke test, and a README. The
-[developer guide](https://jflib.org/docs/GUIDE.html) takes it from there.
 
 ## Repositories
 
