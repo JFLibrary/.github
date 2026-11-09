@@ -12,7 +12,7 @@
 
 </div>
 
-<a href="https://jflib.org"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/hero.png" width="100%" alt="Real JFLib apps side by side: JFNetworker, BackupCraft, jfWord, PaintCraft, and the Pocket Gallery on a phone"></a>
+<a href="https://jflib.org"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/hero.png" width="100%" alt="Real JFLib apps side by side: JFNetworker, BackupCraft, jfWord, JFPainter, and the Pocket Gallery on a phone"></a>
 
 JFLib brings widgets, layout, text, graphics, image formats, sound, networking, and packaging
 together in one library, with no GUI framework underneath. The library uses `#![no_std]`, `core`,
@@ -108,9 +108,9 @@ A backup suite with deduplicated, encrypted, signed backups, schedules and roles
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/JFLibrary/JFLib/tree/main/apps/PaintCraft"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/paintcraft.png" width="400" alt="PaintCraft with the JFLib sample drawing open"></a><br>
-<b><a href="https://github.com/JFLibrary/JFLib/tree/main/apps/PaintCraft">PaintCraft</a></b><br>
-An image editor with layers, history, effects, many image formats, and native plugins.<br>
+<a href="https://github.com/JFLibrary/JFPainter"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/paintcraft.png" width="400" alt="JFPainter with the JFLib sample drawing open"></a><br>
+<b><a href="https://github.com/JFLibrary/JFPainter">JFPainter</a></b><br>
+An image editor with layers, history, effects, many image formats, and native plugins, built from the crate on crates.io.<br>
 <sub>Windows, Linux, Web</sub>
 </td>
 <td width="50%" valign="top">
@@ -141,11 +141,12 @@ A graphical build app for applications, styles, profiles, tests, and release pac
 | Repository | Contents |
 | --- | --- |
 | [JFLib](https://github.com/JFLibrary/JFLib) | The library, its styles, the apps, tests, and documentation |
+| [JFPainter](https://github.com/JFLibrary/JFPainter) | The image editor, formerly PaintCraft, with its plugins and paint.net host |
 | [jflibWebsite](https://github.com/JFLibrary/jflibWebsite) | The source of [jflib.org](https://jflib.org) |
 
 ## License
 
 JFLib is dual-licensed under the MIT License or the Apache License 2.0, at your option.
-PaintCraft, Kritzel, and BackupCraft are released under the MIT License. Third-party code, data,
+JFPainter, Kritzel, and BackupCraft are released under the MIT License. Third-party code, data,
 and fonts keep their own licenses. See [License](https://github.com/JFLibrary/JFLib#license) and
 [Trademarks](https://github.com/JFLibrary/JFLib#trademarks) in the JFLib repository.
