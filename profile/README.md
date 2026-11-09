@@ -94,8 +94,8 @@ corners, and spacing over any style.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/JFLibrary/JFLib/tree/main/apps/JFNetworker"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/jfnetworker.png" width="400" alt="JFNetworker with a campus network of a switch, a router, a server, and four PCs on a grid"></a><br>
-<b><a href="https://github.com/JFLibrary/JFLib/tree/main/apps/JFNetworker">JFNetworker</a></b><br>
+<a href="https://github.com/JFLibrary/JFNetworker"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/jfnetworker.png" width="400" alt="JFNetworker with a campus network of a switch, a router, a server, and four PCs on a grid"></a><br>
+<b><a href="https://github.com/JFLibrary/JFNetworker">JFNetworker</a></b><br>
 A network simulator and lab with a topology editor, device consoles, and a step-by-step simulation mode.<br>
 <sub>Windows, Linux</sub>
 </td>
