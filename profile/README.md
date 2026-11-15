@@ -8,7 +8,7 @@
 
 <a href="https://jflib.org"><img src="https://raw.githubusercontent.com/JFLibrary/.github/main/profile/assets/button.png" width="560" alt="Visit jflib.org"></a>
 
-[Features](https://jflib.org/features.html) · [Apps](https://jflib.org/apps.html) · [Developer guide](https://jflib.org/docs/GUIDE.html) · [API reference](https://jflib.org/docs/API.html) · [crates.io](https://crates.io/crates/jflib) · [Roadmap](https://jflib.org/roadmap.html) · [Source code](https://github.com/JFLibrary/JFLib)
+[Features](https://jflib.org/features.html) · [Apps](https://jflib.org/apps.html) · [Developer guide](https://jflib.org/docs/GUIDE.html) · [API reference](https://jflib.org/docs/API.html) · [crates.io](https://crates.io/crates/jflib) · [Roadmap](https://jflib.org/roadmap.html) · [Source code](https://github.com/JFLibrary/JFLib) · [Discord](https://discord.gg/cX3jUxVvTm) · [Apps on jfreund.org](https://jfreund.org)
 
 </div>
 
