@@ -17,7 +17,7 @@
 JFLib brings widgets, layout, text, graphics, image formats, sound, networking, and packaging
 together in one library, with no GUI framework underneath. The library uses `#![no_std]`, `core`,
 and `alloc`, your app may use `std`, and Cargo builds both. The same widgets and the same renderer
-run on Windows, Linux, Android, and in the browser. The
+run on Windows, Linux, macOS, Android, iOS, and in the browser. The
 [website](https://jflib.org) starts the Feature Gallery right in your browser, with nothing to
 install.
 
@@ -54,9 +54,9 @@ on [docs.rs](https://docs.rs/jflib).
 | --- | --- |
 | **Interface** | Widgets and layout, virtualized grids, trees, charts, docking panels, ribbons, a diagram canvas, a terminal, and rich-text and code editors |
 | **Rendering** | Its own software renderer for text, paths, gradients, and effects, SVG images and icons, scalable interfaces, light and dark themes |
-| **GPU** | An explicit GPU layer with its own WGSL compiler: Vulkan on Windows, Linux, and Android, WebGPU in the browser planned |
+| **GPU** | An explicit GPU layer with its own WGSL compiler: Vulkan on Windows, Linux, and Android, Metal on Mac and iPhone, WebGPU in the browser |
 | **Text** | OpenType shaping, bidirectional text, font fallback, hyphenation, spell checking, and input methods |
-| **Accessibility** | Screen readers through UI Automation, AT-SPI2, an ARIA tree, and Android's accessibility nodes; high contrast, a separate text scale, full keyboard operation |
+| **Accessibility** | Screen readers through UI Automation, AT-SPI2, VoiceOver on Mac and iPhone, an ARIA tree, and Android's accessibility nodes; high contrast, a separate text scale, full keyboard operation |
 | **Languages** | The library's own texts in nine languages, plural rules, regional formats, and mirrored right-to-left layouts |
 | **Desktop** | Notifications, a tray icon, drag and drop with other programs, file types, global shortcuts, jump lists, and starting at login |
 | **Images and documents** | Built-in codecs including PNG, JPEG, WebP, TIFF, AVIF, and JPEG XL, plus document, layout, and DOCX components |
@@ -85,9 +85,10 @@ corners, and spacing over any style.
 | --- | --- |
 | **Windows** | Native x86-64 app with desktop integration |
 | **Linux** | Native x86-64 app, Wayland and X11, picked at startup |
+| **macOS** | Native app for Apple silicon, macOS 13 and later: AppKit windows, menu bar, Dock, and notifications, a signed and notarized `.dmg` with updates |
 | **Android** | Native APK for Android 8 and later, the Pocket Gallery so far |
+| **iOS** | Native iPhone app for iOS 16 and later, built on a Mac, the Pocket Gallery so far |
 | **Browser** | WebAssembly, tested on Chromium and Firefox |
-| **macOS, iOS** | Through the browser for now, no native build yet |
 
 ## Apps built with JFLib
 
